@@ -36,7 +36,7 @@ const notes = [{}, {
 
 const index = notes.findIndex(function (note, index) {
     console.log(note)
-    return note.title==='habbits to work on'
+    return note.title === 'habbits to work on'
 })
 
 console.log(index)
